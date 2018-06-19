@@ -6,7 +6,7 @@ Modify further in order to redefine font sizes and legend for your figure.
 
 Help file:
 % % Print quality figures in MATLAB
-% % Instrutions:
+% % Instructions:
 % 1. Add the m_print file to your pathdef.
 % 2. Have the figure you desire to save highlighted (last figure you have clicked on - applies if multiple figures are open simultaneously).
 % 3. Type m_print in your matlab prompt.
