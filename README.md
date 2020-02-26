@@ -1,5 +1,5 @@
 # m_print
-Print quality figures in MATLAB via GUI
+### Print quality figures in MATLAB via GUI
 ---------------------------------
 m_print saves the current figure to a file using the specified file format, dimensions and resolution. 
 Specify name and destination folder.
