@@ -7,15 +7,16 @@ Modify further in order to redefine font sizes and legend for your figure.
 
 Instructions:
 ---------------------------------
-1. Add the m_print file to your pathdef.
+1. Add the m_print file to your `pathdef`.
 
-2. Have the figure you desire to save highlighted (last figure you have clicked on - applies if multiple figures are open simultaneously).
+2. Highlight figure(s) you want saved.
 
-3. Type m_print in your matlab prompt.
+3. Type `m_print` in prompt.
 
 4. Fill-in the fields of the pop-up window.
-   IMPROTANT: in the formattype field, type the format extension alone e.g. 'jpeg'
+   Choose formattype in relevant field from string selection below:
    Use any of the following available formats below:
+```
 'jpeg'     JPEG 24-bit	.jpg
 
 'png'      PNG 24-bit	.png
@@ -55,7 +56,7 @@ Instructions:
 'ppm'      PPM (plain format)	.ppm
 
 'ppmraw'	  PPM (raw format)	.ppm  
-
+```
 
 5. Choose yes in the popup window if you would like to modify fontsize
    and titles.
