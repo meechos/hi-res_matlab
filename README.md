@@ -1,64 +1,62 @@
-# m_print
-Print quality figures in MATLAB via GUI
----------------------------------
-m_print saves the current figure to a file using the specified file format, dimensions and resolution. 
+# M_PRINT: MATLAB hi-res printer
+
+Print high quality figures in MATLAB via GUI.
+
+`m_print` saves the current figure to a file using the specified file format, dimensions and resolution. 
 Specify name and destination folder.
 Modify further in order to redefine font sizes and legend for your figure.
 
-Instructions:
----------------------------------
+How to use:
+
 1. Add the m_print file to your `pathdef`.
-
 2. Highlight figure(s) you want saved.
-
 3. Type `m_print` in prompt.
-
 4. Fill-in the fields of the pop-up window.
    Choose formattype in relevant field from string selection below:
    Use any of the following available formats below:
-```
-'jpeg'     JPEG 24-bit	.jpg
 
-'png'      PNG 24-bit	.png
+      ```matlab
+      'jpeg'     JPEG 24-bit	.jpg
 
-'tiff'     TIFF 24-bit (compressed)	.tif
+      'png'      PNG 24-bit	.png
 
-'tiffn'	  TIFF 24-bit (not compressed)	.tif
+      'tiff'     TIFF 24-bit (compressed)	.tif
 
-'meta' 	  Enhanced metafile (Windows only)	.emf
+      'tiffn'	  TIFF 24-bit (not compressed)	.tif
 
-'bmpmono'  BMP Monochrome	.bmp
+      'meta' 	  Enhanced metafile (Windows only)	.emf
 
-'bmp'      BMP 24-bit	.bmp
+      'bmpmono'  BMP Monochrome	.bmp
 
-'bmp16m'	  BMP 24-bit	.bmp
+      'bmp'      BMP 24-bit	.bmp
 
-'bmp256'	  BMP 8-bit (256 color, uses a fixed colormap)	.bmp
+      'bmp16m'	  BMP 24-bit	.bmp
 
-'hdf'      HDF 24-bit	.hdf
+      'bmp256'	  BMP 8-bit (256 color, uses a fixed colormap)	.bmp
 
-'pbm'      PBM (plain format) 1-bit	.pbm
+      'hdf'      HDF 24-bit	.hdf
 
-'pbmraw'   PBM (raw format) 1-bit	.pbm
+      'pbm'      PBM (plain format) 1-bit	.pbm
 
-'pcxmono'  PCX 1-bit	.pcx
+      'pbmraw'   PBM (raw format) 1-bit	.pbm
 
-'pcx24b'	  PCX 24-bit color (three 8-bit planes)	.pcx
+      'pcxmono'  PCX 1-bit	.pcx
 
-'pcx256'   PCX 8-bit newer color (256 color)	.pcx
+      'pcx24b'	  PCX 24-bit color (three 8-bit planes)	.pcx
 
-'pcx16'    PCX older color (EGA/VGA 16-color)	.pcx
+      'pcx256'   PCX 8-bit newer color (256 color)	.pcx
 
-'pgm'      PGM (plain format)	.pgm
+      'pcx16'    PCX older color (EGA/VGA 16-color)	.pcx
 
-'pgmraw'   PGM (raw format)	.pgm
+      'pgm'      PGM (plain format)	.pgm
 
-'ppm'      PPM (plain format)	.ppm
+      'pgmraw'   PGM (raw format)	.pgm
 
-'ppmraw'	  PPM (raw format)	.ppm  
-```
+      'ppm'      PPM (plain format)	.ppm
+
+      'ppmraw'	  PPM (raw format)	.ppm  
+      ```
 
 5. Choose yes in the popup window if you would like to modify fontsize
    and titles.
-   
 6. Choose destination folder.
