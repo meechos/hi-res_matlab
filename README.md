@@ -1,4 +1,4 @@
-# M_PRINT: MATLAB hi-res printer
+# `m_print`: MATLAB hi-res printer
 
 Print high quality figures in MATLAB via GUI.
 
